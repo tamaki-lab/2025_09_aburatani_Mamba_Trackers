@@ -94,6 +94,25 @@ python tools/gen_det_results.py --dataset_name dancetrack --data_root /data/data
 
 > DanceTrack的预训练YOLOX-X模型可以从他们的huggingface仓库下载。检测结果见`./det_results`
 
+## 🔨环境准备
+
+一些关键包的版本如下:
+
+```
+cython==3.0.11
+cython-bbox==0.1.5
+lap==0.5.12
+loguru==0.7.3
+opencv-python==4.7.0
+
+torch==1.13.1+cu116
+torchvision==0.14.1+cu116
+yolox==0.1.0
+mamba-ssm==2.2.3.post2
+```
+
+安装YOLOX，请参考 [ByteTrack](https://github.com/ifzhang/ByteTrack), 安装Mamba，请参考 [Mamba](https://github.com/state-spaces/mamba).
+
 
 ## 🔍模型和指南
 

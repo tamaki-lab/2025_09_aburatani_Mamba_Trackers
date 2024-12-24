@@ -94,6 +94,25 @@ python tools/gen_det_results.py --dataset_name dancetrack --data_root /data/data
 
 > The pretrained YOLOX-X model of DanceTrack can be downloaded from their huggingface repo. The detection results are provided in `./det_results`
 
+## 🔨Environment Setup
+
+Some key package versions are as follows:
+
+```
+cython==3.0.11
+cython-bbox==0.1.5
+lap==0.5.12
+loguru==0.7.3
+opencv-python==4.7.0
+
+torch==1.13.1+cu116
+torchvision==0.14.1+cu116
+yolox==0.1.0
+mamba-ssm==2.2.3.post2
+```
+
+For installing yolox, please refer to [ByteTrack](https://github.com/ifzhang/ByteTrack), and for installing mamba-ssm, please refer to [Mamba](https://github.com/state-spaces/mamba).
+
 
 ## 🔍Models & Guidelines
 
