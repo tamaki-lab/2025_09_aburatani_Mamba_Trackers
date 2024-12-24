@@ -5,7 +5,6 @@ weights/*
 .vscode/ 
 *.pt
 *.pth
-*.png
 *.jpg
 
 
