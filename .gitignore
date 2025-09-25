@@ -136,6 +136,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.mamba_trackenv
 
 # Spyder project settings
 .spyderproject
